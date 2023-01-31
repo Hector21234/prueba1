@@ -14,7 +14,7 @@ class Numero
     public function decremento(){
         $this->valor-=1;
         if ($this->valor < 0) {
-            $this->estado='negativo';
+            $this->estado='negativos';
         }
         return $this->valor;
     }
